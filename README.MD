@@ -29,8 +29,41 @@
 
 4. Test 8 to 1024 Digits
 - The program tests multiplication using numbers with 8, 16, 32, 64, 128, 256, 512, and 1024 digits. For each size, both Traditional multiplication and Karatsuba's algorithm are executed. Their execution times are recorded and their results are compared. If Results Match: True, it confirms that both algorithms produced the same correct result.
+
 ![image](images/8.png)
 
+## Question3 : Binary Search vs Ternary Search (Menu-Driven Program)
+1. Create a new file
+- A new Python file was created for Q3. The file contains the program for comparing Binary Search and Ternary Search.
+![image](images/9.png)
+
+2. Generate n Sorted Random Numbers
+- The program generates a specified number of random integers and sorts them in ascending order. This sorted array is used for searching.
+![image](images/10.png)
+
+3. Make It Menu-Driven
+- A menu was created so that the user can select different operations, such as generating the array, displaying the array, performing searches, calculating step counts, and viewing the comparison table.
+![image](images/11.png)
+
+4. Binary Search
+- Binary Search searches for a key by repeatedly dividing the sorted array into two parts. It checks the middle element and continues searching in the appropriate half until the key is found or the search range becomes empty.
+![image](images/12.png)
+
+5. Ternary Search.
+- Ternary Search divides the sorted array into three parts. It checks two middle positions and then continues searching in the appropriate part of the array.
+![image](images/13.png)
+
+6. Best Case Step Count.
+- The best case occurs when the required key is found during the first comparison. Therefore, both Binary Search and Ternary Search can have a minimum of one comparison in the best case.
+![image](images/14.png)
+
+7. Worst Case Step Count
+- The worst case occurs when the key is not present in the array. The program searches until there are no more elements to check. The number of comparisons made during this process is recorded as the worst-case step count.
+![image](images/15.png)
+
+8. Comparison Table.
+- The comparison table tests Binary Search and Ternary Search with different array sizes. The number of comparisons increases as the size of the array increases. The results help demonstrate how both searching algorithms perform as the input size becomes larger.
+![image](images/16.png)
 
 
 
